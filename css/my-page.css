@@ -10,9 +10,10 @@ h1, p{
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	color: #000000;
 
+
 }
 
-header h1{
+body h1{
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 48px;
@@ -37,6 +38,35 @@ main p{
 
 }
 
+/* unvisited link */
+
 a {
   color: #253544;
+  text-decoration: none;
 }
+
+/* visited link */
+
+a:visited {
+	color: #253544;
+	text-decoration: none;
+}
+
+/* mouse over link */
+
+a:hover {
+	color: #4989c4;
+	text-decoration: none;
+}
+
+/* active */
+
+a:active {
+	color: #4989c4;
+	text-decoration: none;
+}
+
+.center{
+	padding-top: 300px;
+}
+
