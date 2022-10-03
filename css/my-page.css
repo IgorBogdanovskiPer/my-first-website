@@ -68,5 +68,6 @@ a:active {
 
 .center{
 	padding-top: 300px;
+	max-width: 800px;
 }
 
