@@ -1,10 +1,21 @@
 body{
-	margin: auto;
 	background-color: #edf3f8;
-	max-width: 800px;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
 
 }
 
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 
 h1, p{
 	font-family: 'Open Sans', 'Arial', sans-serif;
@@ -35,8 +46,10 @@ main p{
 	text-align: left;
 	max-width: 800px;
 	color: #253544;
+	
 
 }
+
 
 /* unvisited link */
 
@@ -65,9 +78,3 @@ a:active {
 	color: #4989c4;
 	text-decoration: none;
 }
-
-.center{
-	padding-top: 300px;
-	max-width: 800px;
-}
-
